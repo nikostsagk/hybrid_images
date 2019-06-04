@@ -17,6 +17,12 @@ Contains all necessary files to run the frequency approach.
 - __main_frequency.m__: Runs main file. Run this for the frequency approach
 - __LP_fourier.m/HP_fourier.m__: lowpass & highpass filters based on element wise operations on the FFT of images
 
+<p align="center">
+  <img width="350" height="250" src="https://github.com/nikostsagk/hybrid_images/blob/master/Picture2.png">
+</p>
+<p align="center">
+  <img width="600" height="300" src="https://github.com/nikostsagk/hybrid_images/blob/master/Picture1.png">
+</p>
 \
 BibTex entry of Oliva et. al. 2006:
 
