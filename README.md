@@ -4,18 +4,18 @@ The report refers to two methods: a spatial approach and a frequency approach.
 
 ## master branch:
 Contains all necessary files to run the spatial approach.
-- __data__: contains all image pairs
-- __report.pdf__: report
-- __my_conv.m__: implements a convolution operation
-- __main_spatial.m__: Runs main file. Run this for the spatial approach
-- __lowpass.m/highpass.m__: lowpass & highpass filters based on conv. operations
-- __spatial_representation.m__: sublots of enhanced images in the spatial domain
-- __freq_representation.m__: subplots of enhanced images in the frequency domain
+- ```data```: contains all image pairs
+- ```report.pdf```: report
+- ```my_conv.m```: implements a convolution operation
+- ```main_spatial.m```: Runs main file. Run this for the spatial approach
+- ```lowpass.m/highpass.m```: lowpass & highpass filters based on conv. operations
+- ```spatial_representation.m```: sublots of enhanced images in the spatial domain
+- ```freq_representation.m```: subplots of enhanced images in the frequency domain
 
 ## freq-method branch:
 Contains all necessary files to run the frequency approach.
-- __main_frequency.m__: Runs main file. Run this for the frequency approach
-- __LP_fourier.m/HP_fourier.m__: lowpass & highpass filters based on element wise operations on the FFT of images
+- ```main_frequency.m```: Runs main file. Run this for the frequency approach
+- ```LP_fourier.m/HP_fourier.m```: lowpass & highpass filters based on element wise operations on the FFT of images
 
 <p align="center">
   <img width="350" height="250" src="https://github.com/nikostsagk/hybrid_images/blob/master/Picture2.png">
@@ -23,7 +23,7 @@ Contains all necessary files to run the frequency approach.
 <p align="center">
   <img width="600" height="300" src="https://github.com/nikostsagk/hybrid_images/blob/master/Picture1.png">
 </p>
-\
+
 BibTex entry of Oliva et. al. 2006:
 
      @article{Oliva:2006:HI:1141911.1141919,
